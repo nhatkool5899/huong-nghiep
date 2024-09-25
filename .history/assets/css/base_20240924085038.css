@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #179BD7;
+    --primary-color-2: #004d94;
+    --head-color: #C60C30;
+    --border-color: #dce52c;
+    --text-color: #333;
+    --title-color: #002248;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Archivo', sans-serif;
+    color: var(--text-color);
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.section{
+    padding: 60px 0;
+    position: relative;
+}
