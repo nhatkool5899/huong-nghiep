@@ -124,6 +124,10 @@
     .box-footer{
         flex-direction: column;
     }
+
+    .partners__data{
+        grid-template-columns: repeat(4,1fr);
+    }
 }
 
 
@@ -138,6 +142,14 @@
 
     .banner-pagination{
         bottom: 4px !important;
+    }
+
+    .partners__data{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .activities{
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
@@ -197,6 +209,14 @@
     
     .schedule-button-left{
         left: 0;
+    }
+
+    .partners__data{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .activities{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 

@@ -124,6 +124,10 @@
     .box-footer{
         flex-direction: column;
     }
+
+    .partners__data{
+        grid-template-columns: repeat(4,1fr);
+    }
 }
 
 
@@ -134,6 +138,18 @@
 
     .box-group{
         grid-template-columns: repeat(3,1fr);
+    }
+
+    .banner-pagination{
+        bottom: 4px !important;
+    }
+
+    .partners__data{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .activities{
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
@@ -155,8 +171,12 @@
         display: none;
     }
 
+    .banner-context{
+        top: 10px;
+    }
+
     .banner-context > img{
-        width: 250px;
+        width: 200px;
     }
 
     .box-group{
@@ -183,6 +203,20 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .schedule-button-next{
+        right: 0;
+    }
     
+    .schedule-button-left{
+        left: 0;
+    }
+
+    .partners__data{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .activities{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 

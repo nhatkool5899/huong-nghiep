@@ -118,18 +118,89 @@
         width: 100%;
     }
     .ft-col-2{
-        width: 50%;
+        width: 100%;
+    }
+
+    .box-footer{
+        flex-direction: column;
+    }
+
+    .partners__data{
+        grid-template-columns: repeat(4,1fr);
     }
 }
 
 
 @media screen and (max-width: 768px){
+    .box-market{
+        grid-template-columns: repeat(1,1fr);
+    }
 
+    .box-group{
+        grid-template-columns: repeat(3,1fr);
+    }
 
+    .banner-pagination{
+        bottom: 4px !important;
+    }
 }
 
 @media screen and (max-width: 576px){
 
+    .section{
+        padding: 20px 0;
+    }
 
+    .wrapper-title > img{
+        width: 60px;
+    }
+
+    .wrapper-title .title{
+        font-size: 26px;
+    }
+
+    .banner-context-title{
+        display: none;
+    }
+
+    .banner-context{
+        top: 10px;
+    }
+
+    .banner-context > img{
+        width: 200px;
+    }
+
+    .box-group{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .box-teacher{
+        grid-template-columns: 1fr;
+    }
+
+    .box-context{
+        font-size: 17px;
+    }
+
+    .box-training {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box-course {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .schedule-button-next{
+        right: 0;
+    }
+    
+    .schedule-button-left{
+        left: 0;
+    }
 }
 
