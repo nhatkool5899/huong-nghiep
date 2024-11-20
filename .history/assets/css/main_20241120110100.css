@@ -769,7 +769,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding-top: 30px;
-    padding-bottom: 40px;
 }
 
 .activity__image {
